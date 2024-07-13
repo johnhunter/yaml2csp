@@ -1,4 +1,4 @@
-const quotedValues = [
+export const quotedValues = [
   'none',
   'self',
   'strict-dynamic',
@@ -19,7 +19,7 @@ const quotedValues = [
  * @param {string} value
  * @returns {string}
  */
-const quoteNonSchemeValues = (value) =>
+export const quoteNonSchemeValues = (value) =>
   quotedValues.includes(value) ? `'${value}'` : value;
 
 /**
