@@ -4,11 +4,15 @@
   "description": "Generate a CSP header value from a yaml source file",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "node **/*.test.js"
+  "engines": {
+    "node": ">=18"
   },
-  "bin": {
-    "yaml2csp": "./index.js"
+  "bugs": {
+    "url": "https://github.com/johnhunter/yaml2csp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnhunter/yaml2csp.git"
   },
   "keywords": [
     "CSP",
@@ -16,6 +20,12 @@
   ],
   "author": "john@johnhunter.info",
   "license": "ISC",
+  "scripts": {
+    "test": "node **/*.test.js"
+  },
+  "bin": {
+    "yaml2csp": "./index.js"
+  },
   "dependencies": {
     "js-yaml": "^4.1.0",
     "yargs": "^17.7.2"
