@@ -1,0 +1,18 @@
+frame-ancestors:
+  - 'self'
+  - 'https://www.coolwebsite.com'
+
+default-src:
+  - 'self' # we can use comments!!
+  - 'https://*.foo.com'
+
+script-src:
+  - 'self'
+  - 'unsafe-eval'
+  - 'blob:'
+  - 'https://www.coolwebsite.com'
+  - 'https://*.another-website.com'
+
+img-src:
+  - 'data:'
+  - '*'
