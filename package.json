@@ -1,7 +1,7 @@
 {
-  "name": "yaml2csp",
+  "name": "@johnhunter/yaml2csp",
   "version": "1.0.0",
-  "description": "Generate a CSP header value from a yaml source file",
+  "description": "A CLI to generate a CSP header value from a yaml source file",
   "main": "index.js",
   "type": "module",
   "engines": {
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "CSP",
-    "yaml"
+    "yaml",
+    "CLI"
   ],
   "author": "john@johnhunter.info",
   "license": "ISC",
