@@ -13,14 +13,13 @@ reverse-proxies.
 
 ## Usage
 
-1. Install the utility
+1. Create your CSP yaml file
+2. Install and run the utility
    - Either: `npx @johnhunter/yaml2csp parse <yaml file>`
    - Or:
      - `npm install -g @johnhunter/yaml2csp`
      - Then `yaml2csp parse <yaml file>`
-2. Create your CSP yaml file
-3. Run the command `yaml2csp parse ./my-csp.yaml`
-4. Copy result from the console (or specify an output file with `-o`)
+3. Copy result from the console (or specify an output file with `-o`)
 
 ## Example
 
